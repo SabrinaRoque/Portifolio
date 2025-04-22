@@ -1,0 +1,149 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container centralizado */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f75050;
+    color: white;
+    padding: 20px 0;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seção "Sobre Mim" */
+#sobre {
+    background-color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#sobre h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#sobre p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Seção "Projetos" */
+#projetos {
+    background-color: #fafafa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#projetos h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.projeto h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.projeto p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Seção "Contato" */
+#contato {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
